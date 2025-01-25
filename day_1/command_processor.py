@@ -1,4 +1,4 @@
-from drawing import *
+from day_1.drawing import *
 
 def process_command(command, t):
     command = command.lower()
