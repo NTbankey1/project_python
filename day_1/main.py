@@ -1,6 +1,6 @@
 import speech_recognition as sr
-from day_1.drawing import setup_turtle 
-from day_1.command_processor import process_command
+from drawing import setup_turtle 
+from command_processor import process_command
 
 def main():
     r = sr.Recognizer()
