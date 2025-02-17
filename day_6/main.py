@@ -56,10 +56,7 @@ def main():
         pygame.draw.rect(screen, (255, 0, 0), (food.position[0], food.position[1], 10, 10))  # Vẽ thức ăn
 
         # Hiển thị thông báo khi game over
-        if game_over:
-            text = font.render("Bên kìa!", True, (255, 255, 255))
-            screen.blit(text, (150, 180))  # Vị trí hiển thị thông báo
-
+    
         pygame.display.flip()
         clock.tick(15)  # Tốc độ trò chơi
 
